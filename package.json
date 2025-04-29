@@ -1,0 +1,28 @@
+{
+  "name": "book-store-cli",
+  "version": "1.0.0",
+  "description": "This is a cli application of book store.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "terminal",
+    "based",
+    "book",
+    "store",
+    "application"
+  ],
+  "author": "Santhoshkumar M M",
+  "license": "ISC",
+  "dependencies": {
+    "book-store-cli": "file:",
+    "cli-table3": "^0.6.5",
+    "colors": "^1.4.0",
+    "dotenv": "^16.5.0",
+    "figlet": "^1.8.1",
+    "inquirer": "^12.6.0",
+    "mongoose": "^8.14.0",
+    "readline-sync": "^1.4.10"
+  }
+}
